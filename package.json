@@ -18,6 +18,7 @@
     "dev": "tsx src/cli.ts",
     "doctor": "tsx src/cli.ts doctor",
     "postbuild": "node scripts/ensure-bin-mode.mjs",
+    "prepare": "npm run build",
     "setup": "tsx src/cli.ts setup",
     "start": "node dist/cli.js serve",
     "test": "vitest run",
